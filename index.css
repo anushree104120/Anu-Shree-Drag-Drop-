@@ -1,0 +1,98 @@
+
+
+
+/* ............ Drag drop css ........  */
+
+
+#bodyfistdiv{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: "column";
+
+margin-top: 60px;
+}
+
+
+.dropzone {
+border: 2px dashed #ccc;
+background-color: #fff;
+box-shadow: 2px 2px 5px #ccc;
+padding: 10px;
+margin: 10px;
+min-width: 150px;
+min-height: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease;
+border-radius: 5px;
+background: rgb(203, 203, 168);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.dropzone.dragover {
+background-color: aqua;
+}
+
+.dropzone>.draggable {
+background-color: darkorange;
+}
+
+.draggable {
+background-color: #0077c2;
+color: #fff;
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
+cursor: move;
+box-shadow: 2px 2px 5px #ccc;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.draggable:hover {
+background-color: #005fa6;
+background-color: red;
+}
+
+.draggable.dragging {
+opacity: 0.5;
+}
+.div1{
+    border: 2px dashed #ccc;
+background-color: #fff;
+box-shadow: 2px 2px 5px #ccc;
+padding: 10px;
+margin: 10px;
+min-width: 150px;
+min-height: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease;
+border-radius: 5px;
+background: rgb(203, 203, 168);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: transparent;
+    box-shadow: 3px 3px 5px #ccc;
+    text-align: center;
+    
+
+}
+.btn:hover{
+    background-color: #0077c2;
+    cursor: pointer;
+}
+img{
+    height: 48px;
+    width: 95px;
+}
